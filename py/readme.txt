@@ -1,6 +1,6 @@
-References
 
-The following sites facilitated my dev code for the bikeshare project.
+
+The websites below :were refered when developing the bikeshare code.
 
 https://www.onlinegdb.com/online_python_debugger
 
