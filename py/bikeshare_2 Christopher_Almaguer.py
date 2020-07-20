@@ -21,7 +21,7 @@ def get_filters():
         try:
             city=int(input('Which city do you want to explore?\n Chicago([1] \n NY[2] \n Washington[3]'))
             if city in (1, 2, 3):
-                print('\nYou selected {}.'.format(city))
+                print(f'\nYou selected city.{city}' )
                 break
             else:
                 print('\nPlease, you must enter one of the three cities in the promp as it is written')   
@@ -59,7 +59,7 @@ def get_filters():
             month=int(input('Which month?\n Jan([1] \n Feb[2] \n Mar[3] \n Apr[4] \n May[5] \n Jun[6]'))
             day=2 
             if month in (1, 2, 3,4,5,6):
-                print('\nYou selected {}.'.format(month))
+                print(f'\nYou selected {month}.')  
                 break
             else:
                 print('\nPlease, you must enter one of the six months')
